@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Overlock', cursive;
+    font-size: 18px;
+}
+
+.nav-item .nav-link{
+    text-transform: uppercase;
+}
+
+.nav-item.active .nav-link span
+{
+    color: #C7D2EF !important;
+    border-bottom: 2px solid #4769b4;
+}
+
+.nav-item .nav-link span{
+    color: #4769b4 !important;
+}
+
+.nav-item.title .nav-link,
+.navbar-brand{
+    color: #D6D6D6 !important;
+    font-size: 24px;
+}
+
+.navbar-brand{
+    width: 100px;
+    padding: 15px;
+}
+
+.carousel-item{
+    min-height: 300px;
+}
+
+.beer-image{
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#rae .media-body{
+    color: #5482AA;
+}
+
+#findus {
+    background-color: #010C2C;
+}
+
+#shops-map{
+    padding-bottom: 50%;
+    width: 100%;
+    background-color: #4769b4;
+}
+
+.contact-us{
+    color: white;
+}
+
+#followus {
+    background-color: #A1BDC8;
+    color: #071228;
+}
+
+.gallery-image{
+    padding-bottom: 100%;
+    width: 100%;
+    background-color: #4769b4;
+}
+
+.footer{
+    background-color: #07578D;
+    color: #A1BDC8;
+}
+
+.footer-logo{
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+}
