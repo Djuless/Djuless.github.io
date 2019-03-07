@@ -24,36 +24,78 @@ var beers = [
     {
         name: "American IPA",
         description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png"
+        image: "/resources/images/ipa.png",
+        color: "red",
+        ibu: 40,
+        alcohol: 55,
+        hop: 30,
+        malt: 40,
+        body: 50
     },
     {
         name: "American IPA",
         description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png"
+        image: "/resources/images/ipa.png",
+        color: "darkgreen",
+        ibu: 40,
+        alcohol: 55,
+        hop: 30,
+        malt: 40,
+        body: 50
     },
     {
         name: "American IPA",
         description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png"
+        image: "/resources/images/ipa.png",
+        color: "gold",
+        ibu: 40,
+        alcohol: 55,
+        hop: 30,
+        malt: 40,
+        body: 50
     },
     {
         name: "American IPA",
         description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png"
+        image: "/resources/images/ipa.png",
+        color: "brown",
+        ibu: 40,
+        alcohol: 55,
+        hop: 30,
+        malt: 40,
+        body: 50
     },
     {
         name: "American IPA",
         description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png"
+        image: "/resources/images/ipa.png",
+        color: "yellow",
+        ibu: 40,
+        alcohol: 55,
+        hop: 30,
+        malt: 40,
+        body: 50
     },
     {
         name: "American IPA",
         description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png"
+        image: "/resources/images/ipa.png",
+        color: "darkblue",
+        ibu: 40,
+        alcohol: 55,
+        hop: 30,
+        malt: 40,
+        body: 50
     },
     {
         name: "American IPA",
         description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png"
+        image: "/resources/images/ipa.png",
+        color: "lime",
+        ibu: 40,
+        alcohol: 55,
+        hop: 30,
+        malt: 40,
+        body: 50
     }
 ];
