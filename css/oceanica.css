@@ -6,6 +6,7 @@ body {
 
 .nav-item .nav-link{
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .nav-item.active .nav-link span
@@ -30,7 +31,7 @@ body {
 }
 
 .page-wrapper{
-    min-height:calc(100% - 100px);
+    min-height:calc(100% - 84px);
     width:100%;
     background-image: url('/resources/images/aboutus.png');
     background-position: center bottom;
