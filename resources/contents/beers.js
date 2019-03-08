@@ -86,16 +86,5 @@ var beers = [
         hop: 30,
         malt: 40,
         body: 50
-    },
-    {
-        name: "American IPA",
-        description: "The classical IPA version Oceanica !",
-        image: "/resources/images/ipa.png",
-        color: "lime",
-        ibu: 40,
-        alcohol: 55,
-        hop: 30,
-        malt: 40,
-        body: 50
     }
 ];
