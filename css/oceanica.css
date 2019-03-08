@@ -78,7 +78,8 @@ body {
     color: white;
 }
 
-#followus {
+#followus,
+#followus h3 {
     background-color: #9EBAC5;
     color: #071228;
 }
