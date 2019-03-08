@@ -29,6 +29,15 @@ body {
     padding: 15px;
 }
 
+.page-wrapper{
+    min-height:calc(100% - 100px);
+    width:100%;
+    background-image: url('/resources/images/aboutus.png');
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .carousel-item{
     min-height: 300px;
 }
