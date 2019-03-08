@@ -110,98 +110,117 @@
         </div>
     </script>
 
-    <body class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark pt-4 row" style="background-color: #010C2C;">
-            <a class="navbar-brand d-lg-none d-xl-none text-center mx-auto" href="#"><img class="logo img-fluid" src="/resources/images/logo.png" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav row text-center" style="width:100%">
-                    <li class="nav-item active col-lg-2">
-                        <a class="nav-link" href="#aboutus"><span>Nosotros</span></a>
-                    </li>
-                    <li class="nav-item  col-lg-2">
-                        <a class="nav-link" href="#beers"><span>Nuestros Estilos</span></a>
-                    </li>
-                    <li class="nav-item  col-lg-4 d-none d-lg-block font-weight-bold title">
-                        <a class="nav-link mx-5">
-                            <img class="logo img-fluid" src="/resources/images/logo.png" />
-                        </a>
-                    </li>
-                    <li class="nav-item  col-lg-2">
-                        <a class="nav-link" href="#findus"><span>Puntos de venta</span></a>
-                    </li>
-                    <li class="nav-item  col-lg-2">
-                        <a class="nav-link" href="#contactus"><span>Contacto</span></a>
-                    </li>
-                </ul>
+    <body class="container-fluid">
+        <div class="page-wrapper">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark pt-4 row">
+                    <a class="navbar-brand d-lg-none d-xl-none text-center mx-auto" href="#"><img class="logo img-fluid" src="/resources/images/logo.png" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav row text-center" style="width:100%">
+                            <li class="nav-item active col-lg-2">
+                                <a class="nav-link" href="#aboutus"><span>Nosotros</span></a>
+                            </li>
+                            <li class="nav-item  col-lg-2">
+                                <a class="nav-link" href="#beers"><span>Nuestros Estilos</span></a>
+                            </li>
+                            <li class="nav-item  col-lg-4 d-none d-lg-block font-weight-bold title">
+                                <a class="nav-link mx-5">
+                                    <img class="logo img-fluid" src="/resources/images/logo.png" />
+                                </a>
+                            </li>
+                            <li class="nav-item  col-lg-2">
+                                <a class="nav-link" href="#findus"><span>Puntos de venta</span></a>
+                            </li>
+                            <li class="nav-item  col-lg-2">
+                                <a class="nav-link" href="#contactus"><span>Contacto</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="aboutus" class="text-center row">
+                    <div>
+                        <div class="col-12 col-md-8 offset-md-2 mt-5">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" id="aboutus-slider">
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/resources/images/aboutus.png" class="img-fluid" alt="about us" style="visibility: hidden;">
+                    </div>
+                </div>
             </div>
-        </nav>
-        <div id="aboutus" class="text-center row" style="background-color: #010C2C;">
-            <div class="page-wrapper">
-                <div class="col-12 col-md-8 offset-md-2 mt-5">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" id="aboutus-slider">
+        </div>
+        <div id="beers" class="container">
+            <div class="d-flex justify-content-around row mb-4" id="beer-container">
+
+            </div>
+            <div id="rae" class="row my-5">
+                <div class="col-12 media ml-lg-4">
+                    <img src="/resources/images/rae.png" class="align-self-center mr-4" height=100 />
+                    <div class="media-body align-self-center" style="color:black;font-size: 16px;">
+                        <h4 class="font-weight-bold" style="color:#03548C;">Certificada</h4>
+                        Todas nuestras cervezas son Ecologicas y Organicas</br>
+                        certificadas por la Red de Agrecologia de Uruguay
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="findus">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-1 col-md-10 my-5">
+                        <h3 class="title font-weight-bold" style="color: #557CCF;">Encontra nuestra cervezas</br>en los siguientes puntos de venta:</h3>
+                        <div id="shops-map" class="my-5">
+        
+                        </div>
+                        <p class="contact-us">
+                            Si te interesa tener nuestras cervezas podes escribir a <a href="mailto:nacho@oceanica.com">nacho@oceanica.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="followus">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-1 col-md-10 my-4">
+                        <h3 class="mt-5 mb-4 font-weight-bold">Segui nuestra aventura @cervezaoceanica</h3>
+                        <div id="gallery" class="d-flex justify-content-around row mb-4">
+
                         </div>
                     </div>
                 </div>
-                <img src="/resources/images/aboutus.png" class="img-fluid" alt="about us" style="visibility: hidden;">
             </div>
         </div>
-        <div id="beers" class="d-flex justify-content-around row mb-4">
-
-        </div>
-        <div id="rae" class="row my-5">
-            <div class="col-10 media ml-4">
-                <img src="/resources/images/rae.png" class="mr-4" height=100 />
-                <div class="media-body align-self-center" style="color:black;font-size: 16px;">
-                    <h4 class="font-weight-bold" style="color:#03548C;">Certificada</h4>
-                    Todas nuestras cervezas son Ecologicas y Organicas</br>
-                    certificadas por la Red de Agrecologia de Uruguay
-                </div>
-            </div>
-        </div>
-        <div id="findus" class="row">
-            <div class="offset-md-1 col-md-10 my-5">
-                <h3 class="title font-weight-bold" style="color: #557CCF;">Encontra nuestra cervezas</br>en los siguientes puntos de venta:</h3>
-                <div id="shops-map" class="my-5">
-
-                </div>
-                <p class="contact-us">
-                    Si te interesa tener nuestras cervezas podes escribir a <a href="mailto:nacho@oceanica.com">nacho@oceanica.com</a>
-                </p>
-            </div>
-        </div>
-        <div id="followus" class="row">
-            <div class="offset-md-1 col-md-10 my-4">
-                <h3 class="mt-5 mb-4 font-weight-bold">Segui nuestra aventura @cervezaoceanica</h3>
-                <div id="gallery" class="d-flex justify-content-around row mb-4">
-
-                </div>
-            </div>
-        </div>
-        <div id="contactus" class="row">
+        <div id="contactus">
             <div>
                 <img src="/resources/images/contactus.png" class="img-fluid" alt="contact us">
             </div>
-            <div class="footer p-5 col-md-8 col-12 d-flex flex-column flex-xl-row">
-                <div>
-                    <span>info@oceanica.com.uy</span>
-                    <span class="mx-3 d-none d-xl-inline-block">|</span> 
+            <div class="container">
+                <div class="row">
+                    <div class="footer p-5 col-md-8 col-12 d-flex flex-column flex-xl-row">
+                        <div>
+                            <span>info@oceanica.com.uy</span>
+                            <span class="mx-3 d-none d-xl-inline-block">|</span> 
+                        </div>
+                        <div>
+                            <span>00 598 44323634</span>
+                            <span class="mx-3 d-none d-xl-inline-block">|</span>
+                        </div>
+                        <div>Playa Hermosa, Piriapolis, Uruguay</div>
+                        
+                    </div>
+                    <div class="col-md-4 col-12 footer pt-md-3 pb-3">
+                        <span class="mx-5 mt-2 footer-logo float-right">
+                            <img class="logo img-fluid" src="/resources/images/logo.png" />
+                        </span>
+                    </div>
                 </div>
-                <div>
-                    <span>00 598 44323634</span>
-                    <span class="mx-3 d-none d-xl-inline-block">|</span>
-                </div>
-                <div>Playa Hermosa, Piriapolis, Uruguay</div>
-                
-            </div>
-            <div class="col-md-4 col-12 footer pt-md-3 pb-3">
-                <span class="ml-5 footer-logo float-right">
-                    <img class="logo img-fluid" src="/resources/images/logo.png" />
-                </span>
             </div>
         </div>
     </body>

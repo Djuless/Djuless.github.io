@@ -71,7 +71,7 @@ $( document ).ready(function() {
     }
 
     function renderBeers(){
-        var container = $('#beers');
+        var container = $('#beer-container');
         var template = $('#beerTemplate');
         $.each(beers, function(i, beer){
             beer.id = i;
