@@ -19,15 +19,13 @@ body {
     color: #4769b4 !important;
 }
 
-.nav-item.title .nav-link,
-.navbar-brand{
-    color: #D6D6D6 !important;
-    font-size: 24px;
+.nav-item.title .nav-link{
+    margin-top: -15px;
 }
 
 .navbar-brand{
     width: 100px;
-    padding: 15px;
+    transform: translateX(15px);
 }
 
 .page-wrapper{
