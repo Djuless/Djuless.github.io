@@ -13,7 +13,7 @@
 body {
     font-family: 'Recoleta', cursive;
     font-size: 18px;
-    padding: 0;
+    padding: 0 !important;
 }
 
 .nav-item .nav-link{
