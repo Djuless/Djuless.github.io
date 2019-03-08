@@ -12,18 +12,6 @@ var beers = [
         srm: 3
     },
     {
-        name: "Porter",
-        description: "Cerveza marrón de textura sedosa con un acentuado sabor a caramelo y chocolate.",
-        image: "/resources/images/beers/04.png",
-        color: "chocolate",
-        ibu: 22,
-        alcohol: 5,
-        hop: 30,
-        malt: 40,
-        body: 50,
-        srm: 30
-    },
-    {
         name: "White IPA",
         description: "Cerveza rubia con notas a pomelo, limón y sutiles toques especiados. Amargor pronunciado ideal para amantes del lúpulo americano.",
         image: "/resources/images/beers/06.png",
@@ -36,10 +24,10 @@ var beers = [
         srm: 3
     },
     {
-        name: "Pale Ale",
+        name: "American IPA",
         description: "Cerveza ámbar-rubí con notas a frutos secos, bizcocho y caramelo aportados por las maltas especiales.",
-        image: "/resources/images/beers/07.png",
-        color: "#5c4021",
+        image: "/resources/images/beers/03.png",
+        color: "darkgreen",
         ibu: 20,
         alcohol: 5,
         hop: 30,
@@ -48,10 +36,10 @@ var beers = [
         srm: 19
     },
     {
-        name: "American IPA",
+        name: "Pale Ale",
         description: "Cerveza ámbar-rubí con notas a frutos secos, bizcocho y caramelo aportados por las maltas especiales.",
-        image: "/resources/images/beers/03.png",
-        color: "darkgreen",
+        image: "/resources/images/beers/07.png",
+        color: "#5c4021",
         ibu: 20,
         alcohol: 5,
         hop: 30,
@@ -70,6 +58,18 @@ var beers = [
         malt: 40,
         body: 50,
         srm: 20
+    },
+    {
+        name: "Porter",
+        description: "Cerveza marrón de textura sedosa con un acentuado sabor a caramelo y chocolate.",
+        image: "/resources/images/beers/04.png",
+        color: "chocolate",
+        ibu: 22,
+        alcohol: 5,
+        hop: 30,
+        malt: 40,
+        body: 50,
+        srm: 30
     },
     {
         name: "Dry Stout",
