@@ -104,10 +104,19 @@ $( document ).ready(function() {
     function renderGallery(){
         var container = $('#gallery');
         var template = $('#pictureTemplate');
-        $.each(pictures, function(i, picture){
-            $(nano(template.html(), {src: picture}))
-            .appendTo(container);
-        });
+        $.ajax({
+            type: 'GET',
+            crossDomain: true,
+            dataType: 'jsonp',
+            url: 'http://www.oceanica.com.uy/instafeed.php',
+            success: function(images){
+                $.each(images, function(i, picture){
+                    $(nano(template.html(), {src: picture.url}))
+                    .appendTo(container);
+                });
+            }
+         });
+        
     }
 
     renderAboutUs();
