@@ -1,14 +1,14 @@
 var aboutus = [
     {
-        title: "Cerveza organica y ecologica",
-        content: "Cerveza Oceanica nace el corazon de una familia de Playa Hermosa con el objectivo de elaborar cervezas inspiradas en la naturaleza uruguaya, utilizando materias primas agroecologicas y metodods de elaboracion sustemnables."
+        title: "Cerveza Orgánica",
+        content: "Cerveza Oceánica nace en el corazón de una familia de Playa Hermosa con el objetivo de elaborar cervezas inspiradas en la naturaleza uruguaya, utilizando materias primas agroecológicas y métodos de elaboración sustentables."
     },
     {
-        title: "Titulo 2: la cervezeria",
-        content: "Contenido 2 que cuenta la historia del desarollo de la cerveceria Oceanica, y no se que."
+        title: "Naturaleza y ciencia",
+        content: "Todas las materias prima utilizadas así como las prácticas de elaboración aplicadas se ajustan a las normas de agroecología internacionales, certificadas por la Red de Agroecología en Uruguay. Además se incorpora la investigación científica para el desarrollo de nuevas levaduras en Uruguay. Conoce más del proyecto biotecnológico <a href='www.levtec.com.uy'>aquí</a>."
     },
     {
-        title: "Parte 3",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu odio eu nisl facilisis auctor. In eget turpis ex. Suspendisse quis viverra tortor, non maximus quam. Fusce nec erat congue, sollicitudin mi vitae, tincidunt risus."
+        title: "El equipo",
+        content: "Cervecería Oceánica consta de un equipo de 7 personas. Los fundadores Agustina y Nicolás, comenzaron esta aventura hace 5 años. Agustina Olivera es investigadora especializada en la biología molecular de la levadura cervecera y Nicolás Collazo es maestro artesano. Juntos diseñan y elaboran las cervezas, investigan para generar nuevos sabores y aromas y mantienen el banco de levaduras cerveceras propias."
     }
 ];
