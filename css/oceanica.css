@@ -45,7 +45,7 @@ body {
     width:100%;
     background-image: url('/resources/images/aboutus.png');
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 100vmax;
     background-repeat: no-repeat;
     background-color: #010C2C;
 }
