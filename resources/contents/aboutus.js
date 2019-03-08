@@ -5,7 +5,7 @@ var aboutus = [
     },
     {
         title: "Naturaleza y ciencia",
-        content: "Todas las materias prima utilizadas así como las prácticas de elaboración aplicadas se ajustan a las normas de agroecología internacionales, certificadas por la Red de Agroecología en Uruguay. Además se incorpora la investigación científica para el desarrollo de nuevas levaduras en Uruguay. Conoce más del proyecto biotecnológico <a href='www.levtec.com.uy'>aquí</a>."
+        content: "Todas las materias prima utilizadas así como las prácticas de elaboración aplicadas se ajustan a las normas de agroecología internacionales, certificadas por la Red de Agroecología en Uruguay. Además se incorpora la investigación científica para el desarrollo de nuevas levaduras en Uruguay. Conoce más del proyecto biotecnológico <a href='http://www.levtec.com.uy'>aquí</a>."
     },
     {
         title: "El equipo",
