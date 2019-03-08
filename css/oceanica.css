@@ -41,7 +41,7 @@ body {
 }
 
 .page-wrapper{
-    min-height:calc(100% - 84px);
+    min-height: 100%;
     width:100%;
     background-image: url('/resources/images/aboutus.png');
     background-position: center bottom;
