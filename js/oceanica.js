@@ -111,7 +111,7 @@ $( document ).ready(function() {
             url: 'https://www.oceanica.com.uy/instafeed.php',
             success: function(images){
                 $.each(images, function(i, picture){
-                    $(nano(template.html(), {src: picture.url}))
+                    $(nano(template.html(), picture))
                     .appendTo(container);
                 });
             }
