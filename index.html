@@ -25,11 +25,13 @@
 
     <script id="beerTemplate" type="text/html">
         <div class="col-lg-3 col-md-4 col-6" data-toggle="modal" data-target="#exampleModal{id}">
-            <img class="beer-image mt-5 mb-2" src="{image}"/>
-            <hr class="mx-4"/>
-            <p class="text-center font-weight-bold" style="color:{color};">
+            <img class="beer-image mt-3 mb-n4" src="{image}"/>
+            <!-- <hr class="mx-4"/> -->
+            <h3 class="text-center font-weight-bold" style="color:{color};">
                 {name}
-            </p>
+            </h3>
+            <p>{description}</p>
+            <span>{alcohol}% AVB / {ibu} IBUS / {srm} SRM</span>
         </div>
         <!-- Modal -->
         <div class="modal fade" id="exampleModal{id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
