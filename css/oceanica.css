@@ -40,6 +40,11 @@ body {
     transform: translateX(15px);
 }
 
+#aboutus{
+    height:70%;
+    margin-bottom: 15%;
+}
+
 .page-wrapper{
     min-height: 100%;
     width:100%;
